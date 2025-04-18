@@ -139,7 +139,7 @@
             "Choices": [
                 {
                     "Text": "Decipher Using Codex",
-                    "Target": "Decipher1"
+                    "Target": "Decipher"
                 },
                 {
                     "Text": "Go Back",
@@ -147,13 +147,13 @@
                 }
             ]   
         },
-        "Decipher1": {
+        "Decipher": {
             "Body": "<em>I show the way near and far, Pointin' true like a north-bound star. I spin, but not for fun. Without me, the pirate's lost, done!</em>",
             "RequiresKey": "codex", 
             "Choices": [
                 {
                     "Text": "The North Star",
-                    "Target": ""
+                    "Target": "Death1"
                 },
                 {
                     "Text": "A Ship's Wheel",
@@ -166,13 +166,7 @@
             ]   
         },
         "Death1": {
-            "Body": "You incorrectly guessed and a swarm of undead pirates killed you and Rocky... You Died!",
-            "Choices": [
-                {
-                    "Text": "Accept Fate",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You incorrectly guessed and a swarm of undead pirates killed you and Rocky... You Died!"
         },
         "Room1": {
             "Body": "You have entered Captian Roger's Tomb, there are three tunnels up ahead where would you like to go...",
@@ -188,10 +182,6 @@
                 {
                     "Text": "Third Tunnel",
                     "Target": "Third Tunnel"
-                },
-                {
-                    "Text": "Restart(You might be missing some items if you need to...)",
-                    "Target": "End"
                 }
             ]
         },
@@ -249,13 +239,7 @@
             ]   
         },
         "Death2": {
-            "Body": "The floor drops below you and Rocky and you two fall into a pit of spikes... You Died!",
-            "Choices": [
-                {
-                    "Text": "Accept Fate",
-                    "Target": "End"
-                }
-            ]
+            "Body": "The floor drops below you and Rocky and you two fall into a pit of spikes... You Died!"
         },
         "First Tunnel": {
             "Body": "It looks like you need <em>three talismans</em>...",
@@ -345,13 +329,7 @@
             ]  
         },
         "Death3": {
-            "Body": "You grabbed the Idol but dynamite exploded on top of you and the rubble killed you and Rocky... You Died!",
-            "Choices": [
-                {
-                    "Text": "Accept Fate",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You grabbed the Idol but dynamite exploded on top of you and the rubble killed you and Rocky... You Died!"
         },
         "Burn": {
             "Body": "Rocky sniffed something behind the thick vines, if only you had something to burn it with...",
@@ -385,13 +363,7 @@
             ]
         },
         "Death4": {
-            "Body": "You pressed the wrong button and undead pirates killed you... You Died!",
-            "Choices": [
-                {
-                    "Text": "Accept Fate",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You pressed the wrong button and undead pirates killed you... You Died!"
         },
         "Treasure Room": {
             "Body": "You found it... all of it...",
@@ -486,58 +458,22 @@
             ]
         },
         "Save Rocky Gold": {
-            "Body": "You saved Rocky.. but you lost your gold in the rubble.. However you realized you had stored some in your pocket and you have made $5,000 USD and saved your best pal!",
-            "Choices": [
-                {
-                    "Text": "The End!",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You saved Rocky.. but you lost your gold in the rubble.. However you realized you had stored some in your pocket and you have made $5,000 USD and saved your best pal!"
         },
         "Save Rocky Medallion": {
-            "Body": "You saved Rocky.. and you lost your medallion... However you realized Rocky saved it in his mouth and you sold it for $50,000 USD, he's such a good boy!",
-            "Choices": [
-                {
-                    "Text": "The End!",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You saved Rocky.. and you lost your medallion... However you realized Rocky saved it in his mouth and you sold it for $50,000 USD, he's such a good boy!"
         },
         "Save Rocky Jewlery": {
-            "Body": "You saved Rocky.. but you lost all your treasure, but you have your best pal right next to you!",
-            "Choices": [
-                {
-                    "Text": "The End!",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You saved Rocky.. but you lost all your treasure, but you have your best pal right next to you!"
         },
         "Save Gold": {
-            "Body": "You saved the gold and left Rocky behind... You sold your gold for $10,000 but you lost your best friend, was it worth it?",
-            "Choices": [
-                {
-                    "Text": "The End!",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You saved the gold and left Rocky behind... You sold your gold for $10,000 but you lost your best friend, was it worth it?"
         },
         "Save Medallion": {
-            "Body": "You saved medallion and left Rocky behind... You really are a true pirate, leaving your crew behind... and no one wants to buy your Medallion...",
-            "Choices": [
-                {
-                    "Text": "The End!",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You saved medallion and left Rocky behind... You really are a true pirate, leaving your crew behind... and no one wants to buy your Medallion..."
         },
         "Save Jewlery": {
-            "Body": "You saved your Jewlery and left Rocky behind... You sold your Jewlery for $25,000, you feel guilty...",
-            "Choices": [
-                {
-                    "Text": "The End!",
-                    "Target": "End"
-                }
-            ]
+            "Body": "You saved your Jewlery and left Rocky behind... You sold your Jewlery for $25,000, you feel guilty..."
         }
         
 

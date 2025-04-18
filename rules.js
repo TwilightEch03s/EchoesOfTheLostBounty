@@ -28,7 +28,7 @@ class Location extends Scene {
 
         if (locationData.Choices && locationData.Choices.length > 0) {
             for (let choice of locationData.Choices) {
-                if (choice.Target === "Decipher1" && !this.engine.inventory["codex"]) {
+                if (choice.Target === "Decipher" && !this.engine.inventory["codex"]) {
                     continue;
                 }
                 
@@ -49,7 +49,7 @@ class Location extends Scene {
                 this.engine.addChoice(choice.Text, choice);
             }
         } else {
-            this.engine.addChoice("The end.");
+            this.engine.addChoice("Replay!");
         }
     
     }
